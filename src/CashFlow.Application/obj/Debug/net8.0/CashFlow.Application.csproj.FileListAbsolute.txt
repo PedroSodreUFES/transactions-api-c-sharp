@@ -17,3 +17,4 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Application/obj/Debug/net8.0/refint/CashFlow.Application.dll
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Application/obj/Debug/net8.0/CashFlow.Application.pdb
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Application/obj/Debug/net8.0/ref/CashFlow.Application.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Application/obj/Debug/net8.0/CashFlow.Application.sourcelink.json

@@ -14,6 +14,10 @@ Segunda opção - Forma nativa:<br>
 ```bash
 dotnet run --project src/CashFlow.API
 ```
+Parar a aplicação:<br>
+```bash
+Cntrl + C
+```
 ### Feito por:
 Pedro Sodré Malini, 2025.
 

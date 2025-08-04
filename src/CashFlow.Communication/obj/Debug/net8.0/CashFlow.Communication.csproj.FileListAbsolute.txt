@@ -9,3 +9,4 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Communication/obj/Debug/net8.0/refint/CashFlow.Communication.dll
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.pdb
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Communication/obj/Debug/net8.0/ref/CashFlow.Communication.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.sourcelink.json
