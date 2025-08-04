@@ -1,4 +1,4 @@
-# API Transações
+# API de transações bancárias com C#
 ### Tecnologias usadas:
 + C#.
 + MySQL.
