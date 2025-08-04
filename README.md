@@ -2,6 +2,7 @@
 ### Tecnologias usadas:
 + C#.
 + MySQL.
++ Entity ORM.
 + Princípios SOLID.
 + Domain Driven Design(DDD).
 + Programação Orientada a Objetos.
