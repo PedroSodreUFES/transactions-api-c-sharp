@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CashFlow.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CashFlow.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CashFlow.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Domain/CashFlow.Domain.csproj",
+      "msbuildProject": "../CashFlow.Domain/CashFlow.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CashFlow.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/pedro/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+      "projectName": "CashFlow.Infrastructure",
+      "projectPath": "/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+      "packagesPath": "/home/pedro/.nuget/packages/",
+      "outputPath": "/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/pedro/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+              "projectPath": "/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Domain/CashFlow.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
