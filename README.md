@@ -18,6 +18,6 @@ Parar a aplicação:<br>
 ```bash
 Cntrl + C
 ```
-### Feito por:
+### Feita por:
 Pedro Sodré Malini, 2025.
 

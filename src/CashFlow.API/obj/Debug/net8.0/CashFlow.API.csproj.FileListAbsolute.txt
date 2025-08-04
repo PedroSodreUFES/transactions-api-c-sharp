@@ -5,7 +5,6 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/CashFlow.API.runtimeconfig.json
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/CashFlow.API.dll
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/CashFlow.API.pdb
-/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.OpenApi.dll
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -27,6 +26,7 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.csproj.CoreCompileInputs.cache
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.MvcApplicationPartsAssemblyInfo.cs
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.MvcApplicationPartsAssemblyInfo.cache
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.sourcelink.json
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/staticwebassets.build.json
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/staticwebassets.development.json
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/staticwebassets/msbuild.CashFlow.API.Microsoft.AspNetCore.StaticWebAssets.props
@@ -41,4 +41,3 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.pdb
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.genruntimeconfig.cache
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/ref/CashFlow.API.dll
-/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.sourcelink.json
