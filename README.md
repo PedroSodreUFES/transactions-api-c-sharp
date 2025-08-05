@@ -3,9 +3,10 @@
 + C#.
 + MySQL.
 + Entity ORM.
++ Fluent Validation.
 + Princípios SOLID.
 + Domain Driven Design(DDD).
-+ Programação Orientada a Objetos.
++ Programação Orientada a Objetos(POO).
 ### Como rodar o programa:
 Primeira opção - Makefile:<br>
 ```bash

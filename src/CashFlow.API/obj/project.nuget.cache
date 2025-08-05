@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xWE8lBrmLwNPKsHm1qcMkh4pBghSZvkVeZ0eaKJYbnCAGDW//pp3Suvmjv4Iv/MY0cLn3qsyy/Vf3mGCNQtrZQ==",
+  "dgSpecHash": "0BAmAH/eZkkZ4E4sAFrzVaHirLaniXiCpA2oF9oyWATv/kiSJzSXR0KpIqb8zhnArf2RF10WaJ6iR+hopkGaMw==",
   "success": true,
   "projectFilePath": "/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/CashFlow.API.csproj",
   "expectedPackageFiles": [
+    "/home/pedro/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/pedro/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
