@@ -6,6 +6,7 @@
 + Fluent Validation.
 + Princípios SOLID.
 + Domain Driven Design(DDD).
++ CultureInfo -> Middleware com headers de linguagem variada.
 + Programação Orientada a Objetos(POO).
 ### Como rodar o programa:
 Primeira opção - Makefile:<br>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<accessability>none</accessability>
+	<data id="f2c8cea6-b4d1-45e4-875f-73b2dcb4a450" name="UNKNOWN_ERROR" xml:space="preserve">
+		<value>Erro desconhecido.</value>
+		<comment/>
+	</data>
+	<data id="247857f4-9220-43a4-8f04-ea594b1d7134" name="TITLE_REQUIRED" xml:space="preserve">
+		<value>O título é obrigatório.</value>
+		<comment/>
+	</data>
+	<data id="dba6ac0e-f4a5-486f-ab5f-da8e70c363ab" name="AMOUNT_MUST_BE_GREATER_THAN_ZERO" xml:space="preserve">
+		<value>O valor  deve ser maior que zero.</value>
+		<comment/>
+	</data>
+	<data id="de9df7a4-002a-4cf5-9424-21a4a0bd04d2" name="EXPENSES_CANNOT_BE_FOR_THE_FUTURE" xml:space="preserve">
+		<value>As despesas não podem ser para o futuro.</value>
+		<comment/>
+	</data>
+	<data id="9d16b3c5-9a9c-421a-a304-16c1209ec9a3" name="PAYMENT_TYPE_INVALID" xml:space="preserve">
+		<value>O tipo de pagamento não é válido.</value>
+		<comment/>
+	</data>
+</root>
