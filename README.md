@@ -4,7 +4,7 @@
 + CultureInfo -> Middleware com headers de linguagem variada.
 + Domain Driven Design(DDD).
 + Entity ORM.
-+ Fluent Assertion
++ Fluent Assertion.
 + Fluent Validation.
 + MySQL.
 + Princípios SOLID.
