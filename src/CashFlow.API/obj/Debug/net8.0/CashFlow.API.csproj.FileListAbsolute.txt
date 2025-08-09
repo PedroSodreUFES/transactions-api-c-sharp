@@ -44,3 +44,17 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.pdb
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.genruntimeconfig.cache
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/ref/CashFlow.API.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/MySqlConnector.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
