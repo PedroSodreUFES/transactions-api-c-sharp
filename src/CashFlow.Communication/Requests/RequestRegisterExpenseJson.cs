@@ -9,5 +9,4 @@ public class RequestRegisterExpenseJson
     public DateTime Date { get; set; }
     public decimal Amount { get; set; }
     public PaymentType Type { get; set; }
-
 }

@@ -20,6 +20,8 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/CashFlow.Communication.pdb
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/CashFlow.Exception.pdb
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/CashFlow.Domain.pdb
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/pt-BR/CashFlow.Exception.resources.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/pt-PT/CashFlow.Exception.resources.dll
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.csproj.AssemblyReference.cache
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.GeneratedMSBuildEditorConfig.editorconfig
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.AssemblyInfoInputs.cache
@@ -42,5 +44,3 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.pdb
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.genruntimeconfig.cache
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/ref/CashFlow.API.dll
-/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/pt-BR/CashFlow.Exception.resources.dll
-/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/pt-PT/CashFlow.Exception.resources.dll
