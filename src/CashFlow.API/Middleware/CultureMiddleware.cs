@@ -19,7 +19,7 @@ public class CultureMiddleware
 
         // se tiver uma linguagem escolhida, use ela ao invés do inglês.
         if (string.IsNullOrWhiteSpace(requestedCulture) == false
-        && supportedLanguages.Exists(l => l.Name == requestedCulture))
+        && supportedLanguages.Exists(l => l.Name.Equals(requestedCulture)))
         {
             cultureInfo = new CultureInfo(requestedCulture);
         }

@@ -4,13 +4,11 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <!-- Ativa geração de código para arquivos .resx -->
     <GenerateResxSource>true</GenerateResxSource>
     <CustomToolNamespace>CashFlow.Exception</CustomToolNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Garante que o .Designer.cs seja gerado e associado ao .resx -->
     <EmbeddedResource Update="ResourceErrorsMessage.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ResourceErrorsMessage.Designer.cs</LastGenOutput>
