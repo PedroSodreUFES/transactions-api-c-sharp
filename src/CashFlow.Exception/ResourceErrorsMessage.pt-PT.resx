@@ -20,5 +20,8 @@
 	<data id="02aa4e38-7b1f-4236-a05b-1961b2b5d894" name="PAYMENT_TYPE_INVALID" xml:space="preserve">
 		<value>O tipo de pagamento não é válido.</value>
 		<comment/>
+	</data>	<data id="4b79cbd6-498f-41d7-a71f-20de474eb4d6" name="EXPENSE_NOT_FOUND" xml:space="preserve">
+		<value>A despesa não foi encontrada.</value>
+		<comment/>
 	</data>
 </root>

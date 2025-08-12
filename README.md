@@ -12,19 +12,19 @@
 + Programação Orientada a Objetos(POO).
 ### Como rodar o programa:
 Dar build na API:<br>
-```c#
+```csharp
 dotnet build
 ```
 Primeira opção - Makefile:<br>
-```bash
+```csharp
 make
 ```
 Segunda opção - Forma nativa:<br>
-```bash
+```csharp
 dotnet run --project src/CashFlow.API
 ```
 Parar a aplicação:<br>
-```bash
+```csharp
 Cntrl + C
 ```
 ### Feita por:

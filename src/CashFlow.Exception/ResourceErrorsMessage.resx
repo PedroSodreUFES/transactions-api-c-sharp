@@ -31,4 +31,8 @@
 		<value>Payment type is not valid.</value>
 		<comment/>
 	</data>
+	<data id="4db44c81-dd12-4692-8c7a-64e7f09915d7" name="EXPENSE_NOT_FOUND" xml:space="preserve">
+		<value>Expense was not found.</value>
+		<comment/>
+	</data>
 </root>

@@ -21,4 +21,7 @@
 		<value>O tipo de pagamento não é válido.</value>
 		<comment/>
 	</data>
-</root>
+	<data id="bd4da3b7-846b-44e5-8c5b-0a0cbf255c5f" name="EXPENSE_NOT_FOUND" xml:space="preserve">
+		<value>A despesa não foi encontrada.</value>
+		<comment/>
+	</data></root>
