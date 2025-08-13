@@ -1,5 +1,4 @@
 using AutoMapper;
-using CashFlow.Application.UseCases.Expenses;
 using CashFlow.Communication.Requests;
 using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Expenses;
@@ -28,7 +27,7 @@ public class UpdateExpenseUseCase : IUpdateExpenseUseCase
         var expense = await _repository.GetById(id);
 
         if (expense is null) {
-            throw new NotFoundException(ResourceErrorsMessage.EXPENSES_CANNOT_BE_FOR_THE_FUTURE);
+            throw new NotFoundException(ResourceErrorsMessage.EXPENSE_NOT_FOUND);
         }
 
         _mapper.Map(request, expense); 
