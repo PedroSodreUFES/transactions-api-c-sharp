@@ -6,11 +6,11 @@ namespace CommonTestUtilities.Requests;
 
 public class RequestRegisterExpenseJsonBuilder
 {
-    public static RequestRegisterExpenseJson Build()
+    public static RequestExpenseJson Build()
     {
         var faker = new Faker();
 
-        var request = new RequestRegisterExpenseJson
+        var request = new RequestExpenseJson
         {
             Title = faker.Commerce.Product(),
             Date = faker.Date.Past(),

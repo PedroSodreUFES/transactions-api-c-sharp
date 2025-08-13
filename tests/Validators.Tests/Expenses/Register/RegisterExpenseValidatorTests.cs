@@ -1,3 +1,4 @@
+using CashFlow.Application.UseCases.Expenses;
 using CashFlow.Application.UseCases.Expenses.Register;
 using CashFlow.Communication.Enums;
 using CashFlow.Exception;
@@ -12,7 +13,7 @@ public class RegisterExpensesValidatorTests
     public void Success()
     {
         // Arrange: Configurar as instâncias
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         // Act: Ação
         var result = validator.Validate(request);
@@ -28,7 +29,7 @@ public class RegisterExpensesValidatorTests
     public void ErrorTitleEmpty(string title)
     {
         // Arrange: Configurar as instâncias
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.Title = title;
 
@@ -44,7 +45,7 @@ public class RegisterExpensesValidatorTests
     public void ErrorDateFuture()
     {
         // Arrange: Configurar as instâncias
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.Date = DateTime.UtcNow.AddDays(1);
 
@@ -60,7 +61,7 @@ public class RegisterExpensesValidatorTests
     public void ErrorPaymentTypeInvalid()
     {
         // Arrange: Configurar as instâncias
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.Type = (PaymentType)20;
 
@@ -79,7 +80,7 @@ public class RegisterExpensesValidatorTests
     public void ErrorAmountInvalid(decimal amount)
     {
         // Arrange: Configurar as instâncias
-        var validator = new RegisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestRegisterExpenseJsonBuilder.Build();
         request.Amount = amount;
 
