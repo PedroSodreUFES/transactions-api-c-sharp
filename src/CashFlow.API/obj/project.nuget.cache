@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "2L69WypThO2xTz1pqV/zqYw1E/Zi4J6yrCXJu1iNp5dJAYToQbirGhmBBcCcbIdqLBlt6Y0n0D4pb86k3b84EA==",
+  "dgSpecHash": "ws4UVSaA+rEoaVHC4ARbt7C8wB6DIjnFL4kEVMFhlr1V2vxYO66vPs/3wbjyAOvrHwhRse4Yi5jZKBUEpXqC+A==",
   "success": true,
   "projectFilePath": "/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/CashFlow.API.csproj",
   "expectedPackageFiles": [
     "/home/pedro/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/pedro/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/home/pedro/.nuget/packages/closedxml/0.105.0/closedxml.0.105.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/closedxml.parser/2.0.0/closedxml.parser.2.0.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/documentformat.openxml/3.1.1/documentformat.openxml.3.1.1.nupkg.sha512",
+    "/home/pedro/.nuget/packages/documentformat.openxml.framework/3.1.1/documentformat.openxml.framework.3.1.1.nupkg.sha512",
+    "/home/pedro/.nuget/packages/excelnumberformat/1.1.0/excelnumberformat.1.1.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.entityframeworkcore/8.0.3/microsoft.entityframeworkcore.8.0.3.nupkg.sha512",
@@ -25,10 +30,13 @@
     "/home/pedro/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/pedro/.nuget/packages/mysqlconnector/2.3.5/mysqlconnector.2.3.5.nupkg.sha512",
     "/home/pedro/.nuget/packages/pomelo.entityframeworkcore.mysql/8.0.2/pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
+    "/home/pedro/.nuget/packages/rbush.signed/4.0.0/rbush.signed.4.0.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/sixlabors.fonts/1.0.0/sixlabors.fonts.1.0.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "/home/pedro/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "/home/pedro/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/system.io.packaging/8.0.1/system.io.packaging.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }

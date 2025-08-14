@@ -51,3 +51,12 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.pdb
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/CashFlow.API.genruntimeconfig.cache
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/obj/Debug/net8.0/ref/CashFlow.API.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/ClosedXML.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/ClosedXML.Parser.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/DocumentFormat.OpenXml.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/DocumentFormat.OpenXml.Framework.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/ExcelNumberFormat.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/RBush.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/SixLabors.Fonts.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/System.IO.Packaging.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/pt-BR/CashFlow.Domain.resources.dll
