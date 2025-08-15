@@ -2,23 +2,23 @@
 <root>
 	<accessability>none</accessability>
 	<data id="28980bd6-905d-469a-a2a9-f35b35a96069" name="AMOUNT" xml:space="preserve">
-		<value>Amount</value>
+		<value>Valor</value>
 		<comment/>
 	</data>
 	<data id="5a33c9ad-fe1c-426f-9e14-cb67b77e16a4" name="DATE" xml:space="preserve">
-		<value>Date</value>
+		<value>Data</value>
 		<comment/>
 	</data>
 	<data id="36fb4193-0702-4575-a718-1f5cdaab3cb2" name="DESCRIPTION" xml:space="preserve">
-		<value>Description</value>
+		<value>Descrição</value>
 		<comment/>
 	</data>
 	<data id="5c60cef5-f973-4cb3-81d2-2f0a64958d5e" name="PAYMENT_TYPE" xml:space="preserve">
-		<value>Payment Type</value>
+		<value>Tipo de pagamento</value>
 		<comment/>
 	</data>
 	<data id="63ce54fb-95c6-4b3d-b6d9-2cbaf8ac8cd6" name="TITLE" xml:space="preserve">
-		<value>Title</value>
+		<value>Título</value>
 		<comment/>
 	</data>
 </root>

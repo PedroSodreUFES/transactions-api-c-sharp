@@ -15,3 +15,4 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.pdb
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Infrastructure/obj/Debug/net8.0/ref/CashFlow.Infrastructure.dll
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Infrastructure/bin/Debug/net8.0/pt-BR/CashFlow.Domain.resources.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Infrastructure/bin/Debug/net8.0/pt-PT/CashFlow.Domain.resources.dll

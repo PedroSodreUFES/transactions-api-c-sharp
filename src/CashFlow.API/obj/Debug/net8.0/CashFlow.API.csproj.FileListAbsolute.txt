@@ -60,3 +60,4 @@
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/SixLabors.Fonts.dll
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/System.IO.Packaging.dll
 /home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/pt-BR/CashFlow.Domain.resources.dll
+/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.API/bin/Debug/net8.0/pt-PT/CashFlow.Domain.resources.dll
