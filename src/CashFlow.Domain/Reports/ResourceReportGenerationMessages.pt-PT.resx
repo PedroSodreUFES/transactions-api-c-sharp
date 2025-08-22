@@ -21,4 +21,12 @@
 		<value>Título</value>
 		<comment/>
 	</data>
+	<data id="04c054f1-6573-44aa-85bb-0d4c33462bcf" name="EXPENSES_FOR" xml:space="preserve">
+		<value>Despesas de</value>
+		<comment/>
+	</data>
+	<data id="567ea01f-6b92-4d24-a462-24d8fe503b5a" name="TOTAL_SPENT_IN" xml:space="preserve">
+		<value>Total gasto em {0}</value>
+		<comment/>
+	</data>
 </root>

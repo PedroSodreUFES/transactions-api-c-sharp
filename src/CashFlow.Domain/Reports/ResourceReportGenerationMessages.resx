@@ -21,4 +21,12 @@
 		<value>Title</value>
 		<comment/>
 	</data>
+	<data id="7ec8f9a6-2290-41c9-b9cd-b2c180ec6351" name="EXPENSES_FOR" xml:space="preserve">
+		<value>Expenses for</value>
+		<comment/>
+	</data>
+	<data id="561d2a84-a0b0-4273-9731-ece6de335bec" name="TOTAL_SPENT_IN" xml:space="preserve">
+		<value>Total spent in {0}</value>
+		<comment/>
+	</data>
 </root>

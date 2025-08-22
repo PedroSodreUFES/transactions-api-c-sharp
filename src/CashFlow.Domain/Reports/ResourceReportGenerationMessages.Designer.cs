@@ -79,5 +79,15 @@ namespace CashFlow.Domain.Reports {
 		/// </summary>
 		public static string TITLE => ResourceManager.GetString("TITLE", resourceCulture);
 
+		/// <summary>
+		/// 
+		/// </summary>
+		public static string EXPENSES_FOR => ResourceManager.GetString("EXPENSES_FOR", resourceCulture);
+
+		/// <summary>
+		/// 
+		/// </summary>
+		public static string TOTAL_SPENT_IN => ResourceManager.GetString("TOTAL_SPENT_IN", resourceCulture);
+
 	}
 }
