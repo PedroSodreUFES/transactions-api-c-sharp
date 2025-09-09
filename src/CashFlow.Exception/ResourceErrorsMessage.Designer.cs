@@ -78,5 +78,35 @@ namespace CashFlow.Exception {
 		/// </summary>
 		public static string EXPENSE_NOT_FOUND => ResourceManager.GetString("EXPENSE_NOT_FOUND", resourceCulture);
 
+		/// <summary>
+		/// 
+		/// </summary>
+		public static string INVALID_PASSWORD => ResourceManager.GetString("INVALID_PASSWORD", resourceCulture);
+
+		/// <summary>
+		/// 
+		/// </summary>
+		public static string EMAIL_EMPTY => ResourceManager.GetString("EMAIL_EMPTY", resourceCulture);
+
+		/// <summary>
+		/// 
+		/// </summary>
+		public static string EMAIL_INVALID => ResourceManager.GetString("EMAIL_INVALID", resourceCulture);
+
+		/// <summary>
+		/// 
+		/// </summary>
+		public static string NAME_EMPTY => ResourceManager.GetString("NAME_EMPTY", resourceCulture);
+
+		/// <summary>
+		/// 
+		/// </summary>
+		public static string EMAIL_ALREADY_REGISTERED => ResourceManager.GetString("EMAIL_ALREADY_REGISTERED", resourceCulture);
+
+		/// <summary>
+		/// 
+		/// </summary>
+		public static string EMAIL_OR_PASSWORD_INVALID => ResourceManager.GetString("EMAIL_OR_PASSWORD_INVALID", resourceCulture);
+
 	}
 }

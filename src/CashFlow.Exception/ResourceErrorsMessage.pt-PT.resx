@@ -24,4 +24,28 @@
 		<value>A despesa não foi encontrada.</value>
 		<comment/>
 	</data>
+	<data id="3d853b63-4012-47f9-8a61-d312189da770" name="INVALID_PASSWORD" xml:space="preserve">
+		<value>Sua senha deve ter pelo menos 8 caracteres e incluir pelo menos uma letra maiúscula, uma letra minúscula, um caracter especial e um número.</value>
+		<comment/>
+	</data>
+	<data id="ffd02302-7119-402b-a8ff-6c53ece6eb07" name="EMAIL_EMPTY" xml:space="preserve">
+		<value>O e-mail não pode estar vazio.</value>
+		<comment/>
+	</data>
+	<data id="88b18c70-1f53-4177-b1f2-4a20590567a5" name="EMAIL_INVALID" xml:space="preserve">
+		<value>O e-mail é inválido.</value>
+		<comment/>
+	</data>
+	<data id="3aecf87d-620a-4be5-8514-264174998d5e" name="NAME_EMPTY" xml:space="preserve">
+		<value>O nome não pode estar vazio.</value>
+		<comment/>
+	</data>
+	<data id="35206e05-2aaf-4a68-80de-ea1cccccf150" name="EMAIL_ALREADY_REGISTERED" xml:space="preserve">
+		<value>E-mail já cadastrado.</value>
+		<comment/>
+	</data>
+	<data id="f6639a0d-9445-4ab5-8a09-d07d89f0e1e1" name="EMAIL_OR_PASSWORD_INVALID" xml:space="preserve">
+		<value>Credenciais inválidas.</value>
+		<comment/>
+	</data>
 </root>

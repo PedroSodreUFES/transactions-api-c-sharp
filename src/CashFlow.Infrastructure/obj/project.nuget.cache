@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zLaVU/rZnAIen/JSF9CfCeSstkKDOTWLm0uICCNNj/4ZtN1zUe03wy9SfDG7NYqjNKe+v0fgV7knhxvDI9lFDA==",
+  "dgSpecHash": "5Yy0QUFpANtfzsqGx1fJ5Occ3u1TJ2h2LkzY8DGj4q1QszCYDkbysfAv6tN8KqZ0YkL76RiBLbmT1uLU1m538g==",
   "success": true,
   "projectFilePath": "/home/pedro/trabalhos/rocketseat/c#/05-transactions-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/home/pedro/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.entityframeworkcore/8.0.3/microsoft.entityframeworkcore.8.0.3.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.3/microsoft.entityframeworkcore.abstractions.8.0.3.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.3/microsoft.entityframeworkcore.analyzers.8.0.3.nupkg.sha512",
@@ -11,14 +12,20 @@
     "/home/pedro/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/microsoft.extensions.configuration.binder/8.0.2/microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/microsoft.identitymodel.abstractions/8.14.0/microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.14.0/microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/microsoft.identitymodel.logging/8.14.0/microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/microsoft.identitymodel.tokens/8.14.0/microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/mysqlconnector/2.3.5/mysqlconnector.2.3.5.nupkg.sha512",
-    "/home/pedro/.nuget/packages/pomelo.entityframeworkcore.mysql/8.0.2/pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512"
+    "/home/pedro/.nuget/packages/pomelo.entityframeworkcore.mysql/8.0.2/pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
+    "/home/pedro/.nuget/packages/system.identitymodel.tokens.jwt/8.14.0/system.identitymodel.tokens.jwt.8.14.0.nupkg.sha512"
   ],
   "logs": []
 }

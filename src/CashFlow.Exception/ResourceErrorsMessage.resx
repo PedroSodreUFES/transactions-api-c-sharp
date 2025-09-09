@@ -35,4 +35,28 @@
 		<value>Expense was not found.</value>
 		<comment/>
 	</data>
+	<data id="29f5c235-0067-4cb9-b7e2-788c11fd4145" name="INVALID_PASSWORD" xml:space="preserve">
+		<value>Password must contain at least one uppercase letter, one lowercase letter, one number and one special character.</value>
+		<comment/>
+	</data>
+	<data id="013ef626-2337-4dab-b0d7-6525e873595a" name="EMAIL_EMPTY" xml:space="preserve">
+		<value>E-mail is empty.</value>
+		<comment/>
+	</data>
+	<data id="940fd372-49ea-45a1-a056-3c61dc7b65c8" name="EMAIL_INVALID" xml:space="preserve">
+		<value>E-mail is invalid.</value>
+		<comment/>
+	</data>
+	<data id="36ef73c1-b6d3-4794-80fa-8129c1d28a2e" name="NAME_EMPTY" xml:space="preserve">
+		<value>Name is empty.</value>
+		<comment/>
+	</data>
+	<data id="2864ee4f-e53a-4dca-8c42-54c38b29b923" name="EMAIL_ALREADY_REGISTERED" xml:space="preserve">
+		<value>Email is already registered.</value>
+		<comment/>
+	</data>
+	<data id="8c32869e-afdf-4451-a85a-ce0c42280c60" name="EMAIL_OR_PASSWORD_INVALID" xml:space="preserve">
+		<value>Invalid credentials.</value>
+		<comment/>
+	</data>
 </root>

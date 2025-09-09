@@ -24,4 +24,28 @@
 	<data id="bd4da3b7-846b-44e5-8c5b-0a0cbf255c5f" name="EXPENSE_NOT_FOUND" xml:space="preserve">
 		<value>A despesa não foi encontrada.</value>
 		<comment/>
-	</data></root>
+	</data>	<data id="e766ee3d-81bd-4ebd-987d-3c57c13496d6" name="INVALID_PASSWORD" xml:space="preserve">
+		<value>Sua senha deve ter pelo menos 8 caracteres e incluir pelo menos uma letra maiúscula, uma letra minúscula, um caracter especial e um número.</value>
+		<comment/>
+	</data>
+	<data id="3b12c374-7064-4da1-86fa-ab915ae9d6b6" name="EMAIL_EMPTY" xml:space="preserve">
+		<value>O e-mail não pode estar vazio.</value>
+		<comment/>
+	</data>
+	<data id="7064c1c8-34be-471e-96ce-5790dc09f59b" name="EMAIL_INVALID" xml:space="preserve">
+		<value>O e-mail é inválido.</value>
+		<comment/>
+	</data>
+	<data id="694c8ec1-e087-4a7e-a892-432ec9bc086f" name="NAME_EMPTY" xml:space="preserve">
+		<value>O nome não pode estar vazio.</value>
+		<comment/>
+	</data>
+	<data id="02e87899-34d4-4478-b4eb-eb135559f8fd" name="EMAIL_ALREADY_REGISTERED" xml:space="preserve">
+		<value>E-mail já cadastrado.</value>
+		<comment/>
+	</data>
+	<data id="9dbc64b8-7ad4-4eef-860e-822b6cd9aeb5" name="EMAIL_OR_PASSWORD_INVALID" xml:space="preserve">
+		<value>Credenciais inválidas.</value>
+		<comment/>
+	</data>
+</root>

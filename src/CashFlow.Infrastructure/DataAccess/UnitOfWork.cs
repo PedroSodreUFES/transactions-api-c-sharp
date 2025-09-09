@@ -1,4 +1,3 @@
-using System.Threading.Tasks;
 using CashFlow.Domain.Repositories;
 
 namespace CashFlow.Infrastructure.DataAccess;
