@@ -1,9 +1,6 @@
-# Projeto principal
-PROJECT = src/CashFlow.API
+PROJECT = src/CashFlow.API/CashFlow.API.csproj
 
-# Comando padrão (executado quando você digita apenas "make")
 default: run
 
-# Rodar a aplicação
 run:
 	dotnet run --project $(PROJECT)

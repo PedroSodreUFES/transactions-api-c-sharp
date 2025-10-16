@@ -108,5 +108,10 @@ namespace CashFlow.Exception {
 		/// </summary>
 		public static string EMAIL_OR_PASSWORD_INVALID => ResourceManager.GetString("EMAIL_OR_PASSWORD_INVALID", resourceCulture);
 
+		/// <summary>
+		/// 
+		/// </summary>
+		public static string PASSWORD_DIFFERENT_CURRENT_PASSWORD => ResourceManager.GetString("PASSWORD_DIFFERENT_CURRENT_PASSWORD", resourceCulture);
+
 	}
 }

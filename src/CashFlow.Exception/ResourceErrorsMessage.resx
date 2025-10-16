@@ -59,4 +59,8 @@
 		<value>Invalid credentials.</value>
 		<comment/>
 	</data>
+	<data id="9ef27ba0-2c04-46b1-b39e-d9fc7b1fc391" name="PASSWORD_DIFFERENT_CURRENT_PASSWORD" xml:space="preserve">
+		<value>New password must be different than the actual password.</value>
+		<comment/>
+	</data>
 </root>

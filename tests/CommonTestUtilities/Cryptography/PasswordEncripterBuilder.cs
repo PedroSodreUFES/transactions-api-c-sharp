@@ -6,11 +6,12 @@ namespace CommonTestUtilities.Cryptography;
 public class PasswordEncripterBuilder
 {
     private readonly Mock<IPasswordEncripter> _mock;
+    
     public PasswordEncripterBuilder()
     {
         _mock = new Mock<IPasswordEncripter>();
 
-        _mock.Setup(passwordEncrypter => passwordEncrypter.Encrypt(It.IsAny<string>())).Returns("string doidona qualquer");
+        _mock.Setup(passwordEncrypter => passwordEncrypter.Encrypt(It.IsAny<string>())).Returns("!%dlfjkd545");
     }
 
     public PasswordEncripterBuilder Verify(string? password)

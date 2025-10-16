@@ -48,4 +48,8 @@
 		<value>Credenciais inválidas.</value>
 		<comment/>
 	</data>
+	<data id="19c09eb9-fa0c-4c2d-9d79-7211ce8aa893" name="PASSWORD_DIFFERENT_CURRENT_PASSWORD" xml:space="preserve">
+		<value>Nova senha deve ser diferente da senha atual.</value>
+		<comment/>
+	</data>
 </root>

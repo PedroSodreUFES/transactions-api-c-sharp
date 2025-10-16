@@ -34,7 +34,7 @@ public class UpdateExpenseUseCase : IUpdateExpenseUseCase
 
         var loggedUser = await _loggedUser.Get();
 
-        var expense = await _repository.GetById(id);
+        var expense = await _repository.GetById(loggedUser, id);
 
         if (expense is null || expense.UserId != loggedUser.Id)
         {

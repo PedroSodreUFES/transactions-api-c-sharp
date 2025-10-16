@@ -5,8 +5,9 @@ using CashFlow.Communication.Requests;
 using CashFlow.Exception;
 using CommonTestUtilities.Requests;
 using FluentAssertions;
-using WebApi.Test;
 using WebApi.Test.InlineData;
+
+namespace WebApi.Test.Login.DoLogin;
 
 public class DoLoginTest : CashFlowClassFixture
 {
@@ -14,7 +15,7 @@ public class DoLoginTest : CashFlowClassFixture
     private readonly string _email;
     private readonly string _name;
     private readonly string _password;
-    public DoLoginTest(CustomWebApplicationFactory webApplicationFactory) :base(webApplicationFactory)
+    public DoLoginTest(CustomWebApplicationFactory webApplicationFactory) : base(webApplicationFactory)
     {
         _email = webApplicationFactory.User_Team_Member.GetEmail();
         _name = webApplicationFactory.User_Team_Member.GetName();

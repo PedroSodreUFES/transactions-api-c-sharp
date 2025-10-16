@@ -1,6 +1,8 @@
+using System.Globalization;
 using System.Net;
 using System.Text.Json;
 using CashFlow.Communication.Enums;
+using CashFlow.Exception;
 using FluentAssertions;
 using WebApi.Test.InlineData;
 
@@ -9,14 +11,13 @@ namespace WebApi.Test.Expenses.GetById;
 public class GetExpenseByIdTest : CashFlowClassFixture
 {
     private const string METHOD = "api/Expenses";
-
-    private readonly string _token = string.Empty;
+    private readonly string _token;
     private readonly long _expenseId;
 
     public GetExpenseByIdTest(CustomWebApplicationFactory webApplicationFactory) : base(webApplicationFactory)
     {
         _token = webApplicationFactory.User_Team_Member.GetToken();
-        _expenseId = webApplicationFactory.Expense.GetId();
+        _expenseId = webApplicationFactory.Expense_Team_Member.GetId();
     }
 
     [Fact]
@@ -40,10 +41,22 @@ public class GetExpenseByIdTest : CashFlowClassFixture
         Enum.IsDefined(typeof(PaymentType), paymentType).Should().BeTrue();
     }
 
-    // [Theory]
-    // [ClassData(typeof(CultureInlineData))]
-    // public async Task Error_Expense_Not_Found(string culture)
-    // {
-        
-    // }
+    [Theory]
+    [ClassData(typeof(CultureInlineData))]
+    public async Task Error_Expense_Not_Found(string culture)
+    {
+        var result = await DoGet(requestUri: $"{METHOD}/{_expenseId + 1}", token: _token, culture: culture);
+
+        result.StatusCode.Should().Be(HttpStatusCode.NotFound);
+
+        var body = await result.Content.ReadAsStreamAsync();
+
+        var response = await JsonDocument.ParseAsync(body);
+
+        var errors = response.RootElement.GetProperty("errorMessages").EnumerateArray();
+
+        var expectedMessage = ResourceErrorsMessage.ResourceManager.GetString("EXPENSE_NOT_FOUND", new CultureInfo(culture));
+
+        errors.Should().HaveCount(1).And.Contain(err => err.GetString()!.Equals(expectedMessage));
+    }
 }

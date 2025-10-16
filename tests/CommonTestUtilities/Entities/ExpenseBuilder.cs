@@ -1,8 +1,6 @@
 using Bogus;
 using CashFlow.Domain.Entities;
 using CashFlow.Domain.Enums;
-using DocumentFormat.OpenXml.Drawing.Charts;
-using DocumentFormat.OpenXml.Presentation;
 
 namespace CommonTestUtilities.Entities;
 
