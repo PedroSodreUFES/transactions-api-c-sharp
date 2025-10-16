@@ -1,4 +1,4 @@
-namespace CashFlow.Communication.Requests;
+﻿namespace CashFlow.Communication.Requests;
 public class RequestChangePasswordJson
 {
     public string Password { get; set; } = string.Empty;

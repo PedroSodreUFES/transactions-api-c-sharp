@@ -70,6 +70,6 @@ public class ChangePasswordUseCaseTest
         var loggedUser = LoggedUserBuilder.Build(user);
         var passwordEncripter = new PasswordEncripterBuilder().Verify(password).Build();
 
-        return new ChangePasswordUseCase(loggedUser, userRepository, unitOfWork, passwordEncripter);
+        return new ChangePasswordUseCase(loggedUser, passwordEncripter, userRepository, unitOfWork);
     }
 }

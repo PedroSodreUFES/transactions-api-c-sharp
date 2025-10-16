@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Net;
 using System.Text.Json;
 using CashFlow.Communication.Requests;
@@ -51,7 +52,7 @@ public class ChangePasswordTest : CashFlowClassFixture
     {
         var request = RequestChangePasswordJsonBuilder.Build();
 
-        var response = await DoPut(METHOD, request, _token, culture);
+        var response = await DoPut(METHOD, request: request, token: _token, culture: culture);
 
         response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
 
@@ -61,7 +62,7 @@ public class ChangePasswordTest : CashFlowClassFixture
 
         var errors = responseData.RootElement.GetProperty("errorMessages").EnumerateArray();
 
-        var expectedMessage = ResourceErrorsMessage.ResourceManager.GetString("PASSWORD_DIFFERENT_CURRENT_PASSWORD");
+        var expectedMessage = ResourceErrorsMessage.ResourceManager.GetString("PASSWORD_DIFFERENT_CURRENT_PASSWORD", new CultureInfo(culture));
 
         errors.Should().HaveCount(1).And.Contain(e => e.GetString()!.Equals(expectedMessage));
     }

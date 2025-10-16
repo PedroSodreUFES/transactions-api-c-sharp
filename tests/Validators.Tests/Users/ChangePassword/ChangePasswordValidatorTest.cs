@@ -21,18 +21,18 @@ public class ChangePasswordValidatorTest
 
     [Theory]
     [InlineData("")]
-    [InlineData(null)]
     [InlineData("    ")]
-    public void Password_Empty(string newPassword)
+    [InlineData(null)]
+    public void Error_NewPassword_Empty(string newPassword)
     {
         var validator = new ChangePasswordValidator();
 
         var request = RequestChangePasswordJsonBuilder.Build();
-        request.Password = newPassword;
+        request.NewPassword = newPassword;
 
         var result = validator.Validate(request);
 
         result.IsValid.Should().BeFalse();
-        result.Errors.Should().ContainSingle(e => e.ErrorMessage.Equals(ResourceErrorsMessage.INVALID_PASSWORD));
+        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorsMessage.INVALID_PASSWORD));
     }
 }
