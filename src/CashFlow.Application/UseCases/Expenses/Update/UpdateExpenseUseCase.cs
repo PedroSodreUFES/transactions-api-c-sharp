@@ -41,6 +41,8 @@ public class UpdateExpenseUseCase : IUpdateExpenseUseCase
             throw new NotFoundException(ResourceErrorsMessage.EXPENSE_NOT_FOUND);
         }
 
+        expense.Tags.Clear();
+
         _mapper.Map(request, expense); 
 
         _repository.Update(expense);

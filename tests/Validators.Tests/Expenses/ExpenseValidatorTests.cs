@@ -4,9 +4,9 @@ using CashFlow.Exception;
 using CommonTestUtilities.Requests;
 using FluentAssertions;
 
-namespace Tests.Validators.Tests.Expenses.Register;
+namespace Tests.Validators.Tests.Expenses;
 
-public class RegisterExpensesValidatorTests
+public class ExpenseValidatorTests
 {
     [Fact] // diz que é um teste de unidade
     public void Success()
@@ -89,5 +89,21 @@ public class RegisterExpensesValidatorTests
         // Assert
         result.IsValid.Should().BeFalse();
         result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorsMessage.AMOUNT_MUST_BE_GREATER_THAN_ZERO));
+    }
+
+    [Fact]
+    public void Error_Tag_Invalid()
+    {
+        // Arrange: Configurar as instâncias
+        var validator = new ExpenseValidator();
+        var request = RequestRegisterExpenseJsonBuilder.Build();
+        request.Tags.Add((Tag)1000);
+
+        // Act: Ação
+        var result = validator.Validate(request);
+
+        // Assert
+        result.IsValid.Should().BeFalse();
+        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorsMessage.TAG_TYPE_NOT_SUPPORTED));
     }
 }

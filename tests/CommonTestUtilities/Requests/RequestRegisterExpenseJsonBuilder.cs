@@ -17,6 +17,7 @@ public class RequestRegisterExpenseJsonBuilder
             Description = faker.Commerce.ProductDescription(),
             Type = faker.PickRandom<PaymentType>(),
             Amount = faker.Random.Decimal(min: 1, max: 1000),
+            Tags = faker.Make(1, () => faker.PickRandom<Tag>()),
         };
 
         return request;
