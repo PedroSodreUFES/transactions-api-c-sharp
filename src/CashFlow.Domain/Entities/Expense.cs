@@ -10,6 +10,7 @@ public class Expense
     public DateTime Date { get; set; }
     public decimal Amount { get; set; }
     public PaymentType Type { get; set; }
+    public ICollection<Tag> Tags { get; set; } = [];
     public long UserId { get; set; }
     public User User { get; set; } = default!; // garante que não é nulo
 }
