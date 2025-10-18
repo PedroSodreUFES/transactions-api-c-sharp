@@ -63,4 +63,8 @@
 		<value>New password must be different than the actual password.</value>
 		<comment/>
 	</data>
+	<data id="6cb40877-c158-4da8-9f4d-2149a7e3ce0e" name="TAG_TYPE_NOT_SUPPORTED" xml:space="preserve">
+		<value>Tag is not supported.</value>
+		<comment/>
+	</data>
 </root>

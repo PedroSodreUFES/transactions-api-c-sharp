@@ -52,4 +52,8 @@
 		<value>Nova senha deve ser diferente da senha atual.</value>
 		<comment/>
 	</data>
+	<data id="fa10de99-c912-4ac2-8c1c-5a5edca3fa96" name="TAG_TYPE_NOT_SUPPORTED" xml:space="preserve">
+		<value>Tag não suportada.</value>
+		<comment/>
+	</data>
 </root>

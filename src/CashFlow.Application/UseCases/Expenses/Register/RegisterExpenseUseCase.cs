@@ -39,6 +39,7 @@ public class RegisterExpenseUseCase: IRegisterExpenseUseCase
         expense.UserId = loggedUser.Id;
 
         await _repository.Add(expense);
+        
         await _unitOfWork.Commit();
 
         return _mapper.Map<ResponseRegisteredExpenseJson>(expense);

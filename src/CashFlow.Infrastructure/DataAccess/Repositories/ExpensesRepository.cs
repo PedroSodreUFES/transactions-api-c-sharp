@@ -1,6 +1,7 @@
 using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories.Expenses;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace CashFlow.Infrastructure.DataAccess.Repositories;
 
@@ -32,16 +33,17 @@ internal class ExpensesRepository : IExpensesReadOnlyRepository, IExpensesWriteO
             .ToListAsync();
     }
 
-    async Task<Expense?> IExpensesReadOnlyRepository.GetById(User user,long id)
+    async Task<Expense?> IExpensesReadOnlyRepository.GetById(User user, long id)
     {
-        return await _dbContext.Expenses
+        return await GetFullExpense()
             .AsNoTracking()
             .FirstOrDefaultAsync(expense => expense.Id == id && expense.UserId == user.Id);
     }
 
     async Task<Expense?> IExpensesUpdateOnlyRepository.GetById(User user, long id)
     {
-        return await _dbContext.Expenses.FirstOrDefaultAsync(expense => expense.Id == id && expense.UserId == user.Id);
+        return await GetFullExpense()
+            .FirstOrDefaultAsync(expense => expense.Id == id && expense.UserId == user.Id);
     }
 
     public void Update(Expense expense)
@@ -55,7 +57,7 @@ internal class ExpensesRepository : IExpensesReadOnlyRepository, IExpensesWriteO
 
         var daysInMonth = DateTime.DaysInMonth(year: date.Year, month: date.Month);
 
-        var endDate = new DateTime(year: date.Year, month: date.Month, day: daysInMonth, hour:23, minute: 59, second:59);
+        var endDate = new DateTime(year: date.Year, month: date.Month, day: daysInMonth, hour: 23, minute: 59, second: 59);
 
         return await _dbContext
                 .Expenses
@@ -63,5 +65,11 @@ internal class ExpensesRepository : IExpensesReadOnlyRepository, IExpensesWriteO
                 .Where(expense => expense.UserId == user.Id && expense.Date >= startDate && expense.Date <= endDate)
                 .OrderBy(expense => expense.Date)
                 .ToListAsync();
+    }
+
+    private IIncludableQueryable<Expense, ICollection<Tag>> GetFullExpense()
+    {
+        return _dbContext.Expenses
+            .Include(expense => expense.Tags);
     }
 }
