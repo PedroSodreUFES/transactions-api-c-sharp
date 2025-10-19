@@ -29,4 +29,3 @@ Cntrl + C
 ```
 ### Feita por:
 Pedro Sodré Malini, 2025.
-Password: mCvGDw6wphidKs2wKppXaOoxSHtnl61DLJczZxXy1HQUT1Os3t
