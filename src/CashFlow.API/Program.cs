@@ -10,10 +10,12 @@ using System.Text;
 using Microsoft.OpenApi.Models;
 using CashFlow.Domain.Security.Tokens;
 using CashFlow.Api.Token;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+using CashFlow.Infrastructure.DataAccess;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(config =>
@@ -72,18 +74,24 @@ builder.Services.AddAuthentication(config =>
     };
 });
 
+builder.Services.AddHealthChecks().AddDbContextCheck<CashFlowDBContext>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+app.MapHealthChecks("/Health", new HealthCheckOptions
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    AllowCachingResponses = false,
+    ResultStatusCodes =
+    {
+        [HealthStatus.Healthy] = StatusCodes.Status200OK,
+        [HealthStatus.Unhealthy] = StatusCodes.Status503ServiceUnavailable,
+    }
+});
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseMiddleware<CultureMiddleware>();
-
-// app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
